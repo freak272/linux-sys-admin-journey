@@ -33,20 +33,21 @@ it is a collection of the linux kernel, GNU tools, libraries and additional soft
 a usable operating system.
 
 How they connect or work together :
-  user & appications
-  (firefox, VS code)
-    ↓(system call)
-   shell (bash)
-   (interprets commands)
-     ↓(sys call)
-   kernel
+  user & appications.
+  (firefox, VS code).
+    ↓(system call).
+   shell (bash).
+   (interprets commands).
+     ↓(sys call).
+   kernel.
    (cpu scheduler, process management,
-   device management and disk management ) 
-      ↓(hardware interfaces)
-   hardware
-   (CPU, RAM, Disk, Network, etc )
+   device management and disk management ).
+      ↓(hardware interfaces).
+   hardware.
+   (CPU, RAM, Disk, Network, etc ).
    
-programs do not communicate directly with the hardware they must go through the kernel
+programs do not communicate directly with the hardware they must go through the kernel.
+
 What would happen if the was no kernel ?
 1. programs would hog the CPU.
 2. programs would write into memory space being used by other programs.
