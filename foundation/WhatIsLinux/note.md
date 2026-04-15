@@ -18,18 +18,21 @@ kernel's responsibilities.
    -creating processes
    -terminating processes
    -tracking processes
-the kernel is the only one that communicates with hardware.
+The kernel is the only one that communicates with hardware.
+
 what is a linux os ?
 kernel and GNU tools make up a linux os.
 example of GNU tools :
-1. core utilities :ls, cp, rm. cat, mkdir, etc
-2. the shell, example - Bourne again shell (BASH)
-3. Development tools: example - GCC (GNU compiler collection)
-4. text editors : example - Emacs and nano
+1. core utilities :ls, cp, rm. cat, mkdir, etc.
+2. the shell, example - Bourne again shell (BASH).
+3. Development tools: example - GCC (GNU compiler collection).
+4. text editors : example - Emacs and nano.
+
 what is a linux distribution ?
 it is a collection of the linux kernel, GNU tools, libraries and additional software packaged together to form
 a usable operating system.
-how they connect or work together :
+
+How they connect or work together :
   user & appications
   (firefox, VS code)
     ↓(system call)
