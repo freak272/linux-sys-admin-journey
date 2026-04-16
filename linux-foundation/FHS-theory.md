@@ -11,12 +11,12 @@ FHS (filesystem hierarchy standard) is a reference that defines the structure
 and layout of directories in linux and unix-like operating systems.
 FHS functions :
 1. FHS defines where system files go.
-2. where user files go
+2. where user files go.
 3. where programs store data, configurations, logs etc are stored.
 
 this ensures that :
-* different distros behave consistently
-* system admins can navigate any system confidently
+* different distros behave consistently.
+* system admins can navigate any system confidently.
 * software knows where to read/write data.
 
 -----------------------------------------------------
