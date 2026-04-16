@@ -48,6 +48,7 @@ role :
 /etc tells programs and the system how to behave.
 * system wide configurations - affect all users. eg /etc/ssh/ssh_config - affects all SSH connections.
 * boot configs - the system reads critical files from /etc when starting.
+  
 /etc simplifies how a user can modify behaviour of the system by grouping allconfigurations in one place making it simple
 for users to navigate when they need to modify the system.
   
@@ -57,17 +58,20 @@ for users to navigate when they need to modify the system.
 - contains essential user command binaries required for basic system operation, especially during boot and recovery
 function : stores fundamental executable programs (binaries) that are required or needed by all users.
 this are actual commands that are executed by user inside the shell.
-   example : ls, cd, mv, etc
-   role : * they provide core command line functionality that helps users to navigate they system.
+example : ls, cd, mv, etc
+role : * they provide core command line functionality that helps users to navigate they system.
 
 ----------------------------------------------------
-4. /sbin - contains essential system administration binaries used managing, reparing and controlling the system,
-           typically by the root user.
-        function : contains critical executables used for system administration and low-level operations.
-                  they interact directly with the system state.
-   role : * system control layer.
-          * administrative use.
-          * they are required during boot and recovery ( maintance of the system ).
+4. /sbin
+- contains essential system administration binaries used managing, reparing and controlling the system,
+  typically by the root user.
+  function : contains critical executables used for system administration and low-level operations.
+  they interact directly with the system state.
+  role :
+  * system control layer.
+  * administrative use.
+  * they are required during boot and recovery ( maintance of the system ).
+  
    /bin - general commands.
    /sbin - administrative commands.
 
