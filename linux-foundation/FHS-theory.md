@@ -21,4 +21,4 @@ this ensures that :
 
 -----------------------------------------------------
 important directories in the filesystem :
-   * / -- root directory 
+   * / --> root directory 
