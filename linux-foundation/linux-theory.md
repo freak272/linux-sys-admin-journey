@@ -90,15 +90,15 @@ These components are bundled together to create a system ready for installation 
 
 The interaction between system components can be represented as:
 
-User Applications (e.g., browsers, code editors)
+User Applications (e.g., browsers, code editors).
 ↓
-Shell (e.g., Bash – interprets user commands)
+Shell (e.g., Bash – interprets user commands).
 ↓
-System Calls
+System Calls.
 ↓
-Kernel (CPU scheduling, memory, processes, devices)
+Kernel (CPU scheduling, memory, processes, devices).
 ↓
-Hardware (CPU, RAM, Disk, Network)
+Hardware (CPU, RAM, Disk, Network).
 
 ---
 
