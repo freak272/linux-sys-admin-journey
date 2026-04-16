@@ -21,7 +21,7 @@ this ensures that :
 
 -----------------------------------------------------
 important directories in the filesystem :
-   * /  root directory - it is the entry point for file access.
+ 1.  * /  root directory - it is the entry point for file access.
                        - the kernel uses it as the base of the filesystem tree.
                        - all paths begin from it /
      funtion : acts as the top level directory that connects all files and directories into a single
@@ -35,7 +35,21 @@ important directories in the filesystem :
 
 ---------------------------------------------------
 
-
+2, /etc - is the central place for configurations.
+        function : stores configuration files that define how the system and services operate.
+                  -this are usually : * text files
+                                      * are read at startup or when a service starts/runs
+                  -example : Network settings, user info, service configs (like SSH, cron etc)
+        role :
+              * control center of the system -programs dont hardcode behavior they read from etc meaning
+              /etc tells programs and the system how to behave.
+              * system wide configurations - affect all users. eg /etc/ssh/ssh_config - affects all SSH connections.
+              * boot configs - the system reads critical files from /etc when starting.
+    /etc simplifies how a user can modify behaviour of the system by grouping allconfigurations in one place making it simple
+    for users to navigate when they need to modify the system.
+  
+---------------------------------------------------
+3. /bin 
 
 
 
